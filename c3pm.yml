@@ -1,0 +1,28 @@
+c3pm_version: v1
+type: library
+name: simple-add-ho
+description: simple add header only
+version: 1.0.6
+publish:
+  include:
+  - "include/**"
+  - "README.md"
+  include_dirs:
+  - include
+build:
+  adapter:
+    name: c3pm
+    version: 0.0.1
+  config:
+    sources:
+    headers:
+    - '**/*.hpp'
+    include_dirs:
+    - include
+documentation: ""
+website: ""
+repository: "https://github.com/c3pm-labs/simple-add-ho"
+contributors: ""
+standard: "20"
+license: ISC
+dependencies: {}
